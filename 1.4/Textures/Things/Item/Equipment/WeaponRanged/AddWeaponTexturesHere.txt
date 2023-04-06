@@ -1,0 +1,1 @@
+﻿TODO: add weapon textures in this folder and delete this file
