@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>ThotDestroyer's Arsenal</name>
+  <name>Terra Space Corps</name>
   <author>ThotDestroyer</author>
   <supportedVersions>
     <li>1.4</li>
   </supportedVersions>
-  <packageId>ThotDestroyer.ThotDestroyersArsenal</packageId>
+  <packageId>ThotDestroyer.TerraSpaceCorps</packageId>
+<!--  TODO: changeme-->
   <description>
 Put Stuff Here
   </description>

@@ -2,7 +2,7 @@
 <Defs>
     
     <ThingDef ParentName="BaseHumanMakeableGun">
-        <defName>ThotDestroyersArsenal_SMG</defName>
+        <defName>TerraSpaceCorps_SMG</defName>
 <!--        TODO: Change me-->
         <label>machine pistol</label>
 <!--        TODO: change me-->
@@ -45,7 +45,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>ThotDestroyersArsenal_SMG_Bullet</defaultProjectile>
+                <defaultProjectile>TerraSpaceCorps_SMG_Bullet</defaultProjectile>
                 <warmupTime>0.5</warmupTime>
                 <range>19.9</range>
                 <burstShotCount>3</burstShotCount>
@@ -76,7 +76,7 @@
         </tools>
     </ThingDef>
     <ThingDef ParentName="BaseBullet">
-        <defName>ThotDestroyersArsenal_SMG_Bullet</defName>
+        <defName>TerraSpaceCorps_SMG_Bullet</defName>
 <!--        TODO: change me-->
         <label>machine pistol bullet</label>
         <graphicData>
@@ -91,7 +91,7 @@
     </ThingDef>
     
     <ThingDef ParentName="BaseHumanMakeableGun">
-        <defName>ThotDestroyersArsenal_LMG</defName>
+        <defName>TerraSpaceCorps_LMG</defName>
         <!--        TODO: change me-->
         <label>LMG</label>
         <!--        TODO: change me-->
@@ -130,7 +130,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>ThotDestroyersArsenal_LMG_Bullet</defaultProjectile>
+                <defaultProjectile>TerraSpaceCorps_LMG_Bullet</defaultProjectile>
                 <warmupTime>1.8</warmupTime>
                 <range>25.9</range>
                 <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
@@ -164,7 +164,7 @@
         </tools>
     </ThingDef>
     <ThingDef ParentName="BaseBullet">
-        <defName>ThotDestroyersArsenal_LMG_Bullet</defName>
+        <defName>TerraSpaceCorps_LMG_Bullet</defName>
         <!--        TODO: change me-->
         <label>LMG bullet</label>
         <graphicData>
@@ -180,7 +180,7 @@
     </ThingDef>
 
     <ThingDef ParentName="BaseHumanMakeableGun">
-        <defName>ThotDestroyersArsenal_ChainShotgun</defName>
+        <defName>TerraSpaceCorps_ChainShotgun</defName>
         <!--        TODO: change me-->
         <label>chain shotgun</label>
         <!--        TODO: change me-->
@@ -219,7 +219,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>ThotDestroyersArsenal_ChainShotgun_Bullet</defaultProjectile>
+                <defaultProjectile>TerraSpaceCorps_ChainShotgun_Bullet</defaultProjectile>
                 <warmupTime>1.2</warmupTime>
                 <range>12.9</range>
                 <burstShotCount>3</burstShotCount>
@@ -254,7 +254,7 @@
         </tools>
     </ThingDef>
     <ThingDef ParentName="BaseBullet">
-        <defName>ThotDestroyersArsenal_ChainShotgun_Bullet</defName>
+        <defName>TerraSpaceCorps_ChainShotgun_Bullet</defName>
         <!--        TODO: change me-->
         <label>shotgun blast</label>
         <graphicData>
@@ -271,7 +271,7 @@
     </ThingDef>
 
     <ThingDef ParentName="BaseHumanMakeableGun">
-        <defName>ThotDestroyersArsenal_AssaultRifle</defName>
+        <defName>TerraSpaceCorps_AssaultRifle</defName>
         <!--        TODO: change me-->
         <label>assault rifle</label>
         <!--        TODO: change me-->
@@ -307,7 +307,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>ThotDestroyersArsenal_AssaultRifle_Bullet</defaultProjectile>
+                <defaultProjectile>TerraSpaceCorps_AssaultRifle_Bullet</defaultProjectile>
                 <warmupTime>1.0</warmupTime>
                 <range>30.9</range>
                 <burstShotCount>3</burstShotCount>
@@ -342,7 +342,7 @@
         </tools>
     </ThingDef>
     <ThingDef ParentName="BaseBullet">
-        <defName>ThotDestroyersArsenal_AssaultRifle_Bullet</defName>
+        <defName>TerraSpaceCorps_AssaultRifle_Bullet</defName>
         <!--        TODO: change me-->
         <label>assault rifle bullet</label>
         <graphicData>
@@ -357,7 +357,7 @@
     </ThingDef>
 
     <ThingDef ParentName="BaseHumanMakeableGun">
-        <defName>ThotDestroyersArsenal_AssaultRifle2</defName>
+        <defName>TerraSpaceCorps_AssaultRifle2</defName>
         <!--        TODO: change me-->
         <label>assault rifle</label>
         <!--        TODO: change me-->
@@ -393,7 +393,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>ThotDestroyersArsenal_AssaultRifle2_Bullet</defaultProjectile>
+                <defaultProjectile>TerraSpaceCorps_AssaultRifle2_Bullet</defaultProjectile>
                 <warmupTime>1.0</warmupTime>
                 <range>30.9</range>
                 <burstShotCount>3</burstShotCount>
@@ -428,7 +428,7 @@
         </tools>
     </ThingDef>
     <ThingDef ParentName="BaseBullet">
-        <defName>ThotDestroyersArsenal_AssaultRifle2_Bullet</defName>
+        <defName>TerraSpaceCorps_AssaultRifle2_Bullet</defName>
         <!--        TODO: change me-->
         <label>assault rifle bullet</label>
         <graphicData>
@@ -443,7 +443,7 @@
     </ThingDef>
 
     <ThingDef ParentName="BaseHumanMakeableGun">
-        <defName>ThotDestroyersArsenal_ChargeRifle</defName>
+        <defName>TerraSpaceCorps_ChargeRifle</defName>
         <!--        TODO: change me-->
         <label>charge rifle</label>
         <!--        TODO: change me-->
@@ -494,7 +494,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>ThotDestroyersArsenal_ChargeRifle_Bullet</defaultProjectile>
+                <defaultProjectile>TerraSpaceCorps_ChargeRifle_Bullet</defaultProjectile>
                 <warmupTime>1.0</warmupTime>
                 <range>25.9</range>
                 <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
@@ -525,7 +525,7 @@
         </tools>
     </ThingDef>
     <ThingDef ParentName="BaseBullet">
-        <defName>ThotDestroyersArsenal_ChargeRifle_Bullet</defName>
+        <defName>TerraSpaceCorps_ChargeRifle_Bullet</defName>
         <!--        TODO: change me-->
         <label>charge shot</label>
         <graphicData>
@@ -541,7 +541,7 @@
     </ThingDef>
 
     <ThingDef ParentName="BaseHumanMakeableGun">
-        <defName>ThotDestroyersArsenal_SniperRifle</defName>
+        <defName>TerraSpaceCorps_SniperRifle</defName>
         <!--        TODO: change me-->
         <label>sniper rifle</label>
         <!--        TODO: change me-->
@@ -582,7 +582,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>ThotDestroyersArsenal_SniperRifle_Bullet</defaultProjectile>
+                <defaultProjectile>TerraSpaceCorps_SniperRifle_Bullet</defaultProjectile>
                 <warmupTime>3.5</warmupTime>
                 <range>44.9</range>
                 <soundCast>Shot_SniperRifle</soundCast>
@@ -614,7 +614,7 @@
         </weaponTags>
     </ThingDef>
     <ThingDef ParentName="BaseBullet">
-        <defName>ThotDestroyersArsenal_SniperRifle_Bullet</defName>
+        <defName>TerraSpaceCorps_SniperRifle_Bullet</defName>
         <!--        TODO: change me-->
         <label>sniper rifle bullet</label>
         <graphicData>
