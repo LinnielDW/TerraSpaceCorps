@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Terra Space Corps</name>
+  <name>[TSC]Terra Space Corps</name>
   <author>ThotDestroyer</author>
   <supportedVersions>
     <li>1.4</li>
@@ -8,7 +8,7 @@
   <packageId>ThotDestroyer.TerraSpaceCorps</packageId>
 <!--  TODO: changeme-->
   <description>
-Put Stuff Here
+Terra Space Corps armerments for all your humanity first needs!
   </description>
   <loadAfter>
     <li>Ludeon.RimWorld</li>
