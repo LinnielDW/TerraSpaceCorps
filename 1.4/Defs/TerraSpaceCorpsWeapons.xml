@@ -50,7 +50,7 @@
                 <range>19.9</range>
                 <burstShotCount>3</burstShotCount>
                 <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-                <soundCast>Shot_MachinePistol</soundCast>
+                <soundCast>SMG_shot</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
@@ -135,7 +135,7 @@
                 <range>25.9</range>
                 <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
                 <burstShotCount>6</burstShotCount>
-                <soundCast>Shot_Minigun</soundCast>
+                <soundCast>LMG_shot</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
@@ -224,7 +224,7 @@
                 <range>12.9</range>
                 <burstShotCount>3</burstShotCount>
                 <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-                <soundCast>Shot_Shotgun</soundCast>
+                <soundCast>SG_shot</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
@@ -312,7 +312,7 @@
                 <range>30.9</range>
                 <burstShotCount>3</burstShotCount>
                 <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-                <soundCast>Shot_AssaultRifle</soundCast>
+                <soundCast>Battle_shot</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
@@ -398,7 +398,7 @@
                 <range>30.9</range>
                 <burstShotCount>3</burstShotCount>
                 <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-                <soundCast>Shot_AssaultRifle</soundCast>
+                <soundCast>SAR_shot</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
@@ -499,7 +499,7 @@
                 <range>25.9</range>
                 <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
                 <burstShotCount>3</burstShotCount>
-                <soundCast>Shot_ChargeRifle</soundCast>
+                <soundCast>TChagre_shot</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
@@ -585,7 +585,7 @@
                 <defaultProjectile>TerraSpaceCorps_SniperRifle_Bullet</defaultProjectile>
                 <warmupTime>3.5</warmupTime>
                 <range>44.9</range>
-                <soundCast>Shot_SniperRifle</soundCast>
+                <soundCast>Bolt_shot</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
