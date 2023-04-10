@@ -6,7 +6,7 @@
 <!--        TODO: Change me-->
         <label>FTF 23 SMG</label>
 <!--        TODO: change me-->
-        <description>The FTF 23 SMG your go to CQC weapon fast firing SMG will never fail you </description>
+        <description>The FTF 23 SMG your go to CQC weapon fast firing SMG will never fail you</description>
         <graphicData>
             <!--        TODO: change me-->
             <texPath>Things/Item/Equipment/WeaponRanged/FTF_SMG</texPath>
@@ -362,7 +362,7 @@
         <!--        TODO: change me-->
         <label>VS 92 battle Rifle</label>
         <!--        TODO: change me-->
-        <description>The VS 92 Battle Rifle, a heavy hiting rifle use to put down more beefer enemys.  </description>
+        <description>The VS 92 Battle Rifle, a heavy hiting rifle use to put down more beefer enemys.</description>
         <graphicData>
             <!--        TODO: change me-->
             <texPath>Things/Item/Equipment/WeaponRanged/BattleRifle</texPath>
