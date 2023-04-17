@@ -12,6 +12,7 @@ Terra Space Corps armerments for all your humanity first needs!
   </description>
   <loadAfter>
     <li>Ludeon.RimWorld</li>
+    <li>ceteam.combatextended</li>
   </loadAfter>
 </ModMetaData>
 
