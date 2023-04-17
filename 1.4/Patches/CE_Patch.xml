@@ -403,6 +403,55 @@
                     </weaponTags>
                     <researchPrerequisite>PrecisionRifling</researchPrerequisite>
                     <AllowWithRunAndGun>false</AllowWithRunAndGun>
+                    
+                    <!-- ================== Armor ================== -->
+                    
+                    <!-- TSC Trooper Armor -->
+				
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName ="tscs"]/statBases</xpath>
+						<value>
+							<Bulk>12</Bulk>
+							<WornBulk>2</WornBulk>
+						</value>
+					</li>
+				
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName ="tscs"]/statBases/Mass</xpath>
+						<value>
+							<Mass>5</Mass>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName ="tscs"]/statBases/ArmorRating_Sharp</xpath>
+						<value>
+							<ArmorRating_Sharp>8</ArmorRating_Sharp>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName ="tscs"]/statBases/ArmorRating_Blunt</xpath>
+						<value>
+							<ArmorRating_Blunt>12</ArmorRating_Blunt>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName = "tscs"]/equippedStatOffsets</xpath>
+						<value>
+							<CarryWeight>8</CarryWeight>
+							<CarryBulk>4</CarryBulk>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName = "tscs"]/equippedStatOffsets</xpath>
+						<value>
+							<CarryWeight>200</CarryWeight>
+							<CarryBulk>200</CarryBulk>
+						</value>
+					</li>
                 </li>
             </operations>
         </match>
