@@ -40,12 +40,12 @@
                 <li Class="PatchOperationReplace">
                     <xpath>
                         /Defs/ThingDef[
-                            defName ="TerraSpaceCorps_LMG" or
-                            defName ="TerraSpaceCorps_ChainShotgun" or
-                            defName ="TerraSpaceCorps_AssaultRifle" or
-                            defName ="TerraSpaceCorps_AssaultRifle2" or
-                            defName ="TerraSpaceCorps_ChargeRifle" or
-                            defName ="TerraSpaceCorps_SniperRifle"
+                            defName ="LMG_FSK" or
+                            defName ="PPT_Shotgun" or
+                            defName ="Lar_Rifle" or
+                            defName ="BattleRifle" or
+                            defName ="Mark_Charge" or
+                            defName ="ARS_SniperRifle"
                         ]/tools
                     </xpath>
                     <value>
