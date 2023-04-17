@@ -357,7 +357,7 @@
     </ThingDef>
 
     <ThingDef ParentName="BaseHumanMakeableGun">
-        <defName>TerraSpaceCorps_AssaultRifle2</defName>
+        <defName>TerraSpaceCorps_AssaultRifleTwo</defName>
         <!--        TODO: change me-->
         <label>assault rifle</label>
         <!--        TODO: change me-->
@@ -393,7 +393,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>TerraSpaceCorps_AssaultRifle2_Bullet</defaultProjectile>
+                <defaultProjectile>TerraSpaceCorps_AssaultRifleTwo_Bullet</defaultProjectile>
                 <warmupTime>1.0</warmupTime>
                 <range>30.9</range>
                 <burstShotCount>3</burstShotCount>
@@ -428,7 +428,7 @@
         </tools>
     </ThingDef>
     <ThingDef ParentName="BaseBullet">
-        <defName>TerraSpaceCorps_AssaultRifle2_Bullet</defName>
+        <defName>TerraSpaceCorps_AssaultRifleTwo_Bullet</defName>
         <!--        TODO: change me-->
         <label>assault rifle bullet</label>
         <graphicData>
