@@ -7,7 +7,7 @@
 		<match Class="PatchOperationSequence">
 			<operations>
 				<!--Chemical guns-->
-				<li Class="SafePatcher.PatchOperationSetModExtension">
+				<li Class="SafePatcher.PatchOperationSetModExtension" MayRequire="issaczhuang.muzzleflash" >
 					<xpath>Defs/ThingDef[defName="FTF_SMG"]</xpath>
 					<value>
 						<li Class="MuzzleFlash.MuzzleFlashProps">
@@ -20,7 +20,7 @@
 					</value>
 				</li>
 
-				<li Class="SafePatcher.PatchOperationSetModExtension">
+				<li Class="SafePatcher.PatchOperationSetModExtension" MayRequire="issaczhuang.muzzleflash" >
 					<xpath>Defs/ThingDef[defName="PPT_Shotgun"]</xpath>
 					<value>
 						<li Class="MuzzleFlash.MuzzleFlashProps">
@@ -33,7 +33,7 @@
 					</value>
 				</li>
 
-				<li Class="SafePatcher.PatchOperationSetModExtension">
+				<li Class="SafePatcher.PatchOperationSetModExtension" MayRequire="issaczhuang.muzzleflash" >
 					<xpath>Defs/ThingDef[defName="LMG_FSK"]</xpath>
 					<value>
 						<li Class="MuzzleFlash.MuzzleFlashProps">
@@ -46,7 +46,7 @@
 					</value>
 				</li>
 
-				<li Class="SafePatcher.PatchOperationSetModExtension">
+				<li Class="SafePatcher.PatchOperationSetModExtension" MayRequire="issaczhuang.muzzleflash" >
 					<xpath>Defs/ThingDef[defName="Lar_Rifle"]</xpath>
 					<value>
 						<li Class="MuzzleFlash.MuzzleFlashProps">
@@ -59,7 +59,7 @@
 					</value>
 				</li>
 
-				<li Class="SafePatcher.PatchOperationSetModExtension">
+				<li Class="SafePatcher.PatchOperationSetModExtension" MayRequire="issaczhuang.muzzleflash" >
 					<xpath>Defs/ThingDef[defName="ARS_SniperRifle"]</xpath>
 					<value>
 						<li Class="MuzzleFlash.MuzzleFlashProps">
@@ -72,7 +72,7 @@
 					</value>
 				</li>
 
-				<li Class="SafePatcher.PatchOperationSetModExtension">
+				<li Class="SafePatcher.PatchOperationSetModExtension" MayRequire="issaczhuang.muzzleflash" >
 					<xpath>Defs/ThingDef[defName="BattleRifle"]</xpath>
 					<value>
 						<li Class="MuzzleFlash.MuzzleFlashProps">
@@ -87,7 +87,7 @@
 
 				<!--Charged spacer magic, should be green?-->
 
-				<li Class="SafePatcher.PatchOperationSetModExtension">
+				<li Class="SafePatcher.PatchOperationSetModExtension" MayRequire="issaczhuang.muzzleflash" >
 					<xpath>Defs/ThingDef[defName="Mark_Charge"]</xpath>
 					<value>
 						<li Class="MuzzleFlash.MuzzleFlashProps">
@@ -105,7 +105,7 @@
 			<operations>
 				<!--Chemical guns-->
 			 
-				<li Class="SafePatcher.PatchOperationSetModExtension">
+				<li Class="SafePatcher.PatchOperationSetModExtension" MayRequire="issaczhuang.muzzleflash" >
 					<xpath>Defs/ThingDef[defName="FTF_SMG"]</xpath>
 					<value>
 						<li Class="MuzzleFlash.MuzzleFlashProps">
@@ -118,7 +118,7 @@
 					</value>
 				</li>
 
-				<li Class="SafePatcher.PatchOperationSetModExtension">
+				<li Class="SafePatcher.PatchOperationSetModExtension" MayRequire="issaczhuang.muzzleflash" >
 					<xpath>Defs/ThingDef[defName="PPT_Shotgun"]</xpath>
 					<value>
 						<li Class="MuzzleFlash.MuzzleFlashProps">
@@ -131,7 +131,7 @@
 					</value>
 				</li>
 
-				<li Class="SafePatcher.PatchOperationSetModExtension">
+				<li Class="SafePatcher.PatchOperationSetModExtension" MayRequire="issaczhuang.muzzleflash" >
 					<xpath>Defs/ThingDef[defName="LMG_FSK"]</xpath>
 					<value>
 						<li Class="MuzzleFlash.MuzzleFlashProps">
@@ -144,7 +144,7 @@
 					</value>
 				</li>
 
-				<li Class="SafePatcher.PatchOperationSetModExtension">
+				<li Class="SafePatcher.PatchOperationSetModExtension" MayRequire="issaczhuang.muzzleflash" >
 					<xpath>Defs/ThingDef[defName="Lar_Rifle"]</xpath>
 					<value>
 						<li Class="MuzzleFlash.MuzzleFlashProps">
@@ -157,7 +157,7 @@
 					</value>
 				</li>
 
-				<li Class="SafePatcher.PatchOperationSetModExtension">
+				<li Class="SafePatcher.PatchOperationSetModExtension" MayRequire="issaczhuang.muzzleflash" >
 					<xpath>Defs/ThingDef[defName="ARS_SniperRifle"]</xpath>
 					<value>
 						<li Class="MuzzleFlash.MuzzleFlashProps">
@@ -170,7 +170,7 @@
 					</value>
 				</li>
 
-				<li Class="SafePatcher.PatchOperationSetModExtension">
+				<li Class="SafePatcher.PatchOperationSetModExtension" MayRequire="issaczhuang.muzzleflash" >
 					<xpath>Defs/ThingDef[defName="BattleRifle"]</xpath>
 					<value>
 						<li Class="MuzzleFlash.MuzzleFlashProps">
@@ -185,7 +185,7 @@
 
 				<!--Charged spacer magic, should be green?-->
 
-				<li Class="SafePatcher.PatchOperationSetModExtension">
+				<li Class="SafePatcher.PatchOperationSetModExtension" MayRequire="issaczhuang.muzzleflash" >
 					<xpath>Defs/ThingDef[defName="Mark_Charge"]</xpath>
 					<value>
 						<li Class="MuzzleFlash.MuzzleFlashProps">
