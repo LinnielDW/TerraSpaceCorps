@@ -5,7 +5,7 @@
         <!--        TODO: change name-->
         <label>TSC Trooper Armor</label>
         <!--        TODO: change desc-->
-        <description>changeme.</description>
+        <description>Best a Grunt can</description>
         
         <techLevel>Industrial</techLevel>
         <recipeMaker>
@@ -51,7 +51,7 @@
             <li>Armor</li>
         </tradeTags>
         <costList>
-            <ComponentSpacer>4</ComponentSpacer>
+            <ComponentIndustrial>4</ComponentIndustrial>
             <Plasteel>100</Plasteel>
             <Uranium>20</Uranium>
         </costList>
@@ -62,6 +62,8 @@
                 <li>Shoulders</li>
                 <li>Arms</li>
                 <li>Legs</li>
+                <li>Hands</li>
+                <li>Feet</li>
             </bodyPartGroups>
             <!--            TODO: change graphic-->
             <wornGraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmor/tscs</wornGraphicPath>
@@ -86,11 +88,11 @@
     </ThingDef>
 
     <ThingDef Name="tscshelm" ParentName="ArmorHelmetMakeableBase">
-        <defName>tshelmet</defName>
+        <defName>tscshelm</defName>
 <!--        TODO: change me-->
         <label>TSC Trooper helmet</label>
 <!--        TODO: change me-->
-        <description>changeme.</description>
+        <description>Best a Grunt can</description>
         <techLevel>Industrial</techLevel>
         <recipeMaker>
             <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -131,7 +133,7 @@
             <IncomingDamageFactor>-0.10</IncomingDamageFactor>
         </equippedStatOffsets>
         <costList>
-            <ComponentSpacer>1</ComponentSpacer>
+            <ComponentIndustrial>1</ComponentIndustrial>
             <Plasteel>40</Plasteel>
         </costList>
         <apparel>
@@ -169,7 +171,7 @@
         <!--        TODO: change me-->
         <label>TSC Trooper Toxic helmet</label>
         <!--        TODO: change me-->
-        <description>changeme.</description>
+        <description>GAS GAS GAS</description>
         <graphicData>
             <!--            TODO: change me-->
             <texPath>Things/Pawn/Humanlike/Apparel/PowerArmor/sealedhelm</texPath>
@@ -180,7 +182,7 @@
             <wornGraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmor/sealedhelm</wornGraphicPath>
         </apparel>
         <equippedStatOffsets>
-            <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">1</ToxicEnvironmentResistance>
+            <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">2</ToxicEnvironmentResistance>
         </equippedStatOffsets>
     </ThingDef>
 </Defs>

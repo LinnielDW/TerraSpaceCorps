@@ -85,7 +85,7 @@
         </graphicData>
         <projectile>
             <damageDef>Bullet</damageDef>
-            <damageAmountBase>10</damageAmountBase>
+            <damageAmountBase>13</damageAmountBase>
             <speed>65</speed>
         </projectile>
     </ThingDef>
@@ -360,7 +360,7 @@
     <ThingDef ParentName="BaseHumanMakeableGun">
         <defName>BattleRifle</defName>
         <!--        TODO: change me-->
-        <label>VS 92 battle Rifle</label>
+        <label>VS 92 Battle Rifle</label>
         <!--        TODO: change me-->
         <description>The VS 92 Battle Rifle, a heavy hiting rifle use to put down more beefer enemys.</description>
         <graphicData>
@@ -423,7 +423,7 @@
                     <li>Blunt</li>
                     <li>Poke</li>
                 </capacities>
-                <power>10</power>
+                <power>11.5</power>
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
@@ -438,7 +438,7 @@
         </graphicData>
         <projectile>
             <damageDef>Bullet</damageDef>
-            <damageAmountBase>18</damageAmountBase>
+            <damageAmountBase>19</damageAmountBase>
             <speed>80</speed>
         </projectile>
     </ThingDef>
@@ -459,10 +459,10 @@
         <statBases>
             <WorkToMake>45000</WorkToMake>
             <Mass>4.6</Mass>
-            <AccuracyTouch>0.55</AccuracyTouch>
+            <AccuracyTouch>0.65</AccuracyTouch>
             <AccuracyShort>0.74</AccuracyShort>
-            <AccuracyMedium>0.55</AccuracyMedium>
-            <AccuracyLong>0.45</AccuracyLong>
+            <AccuracyMedium>0.65</AccuracyMedium>
+            <AccuracyLong>0.55</AccuracyLong>
             <RangedWeapon_Cooldown>2.00</RangedWeapon_Cooldown>
         </statBases>
         <recipeMaker>
@@ -569,17 +569,17 @@
         <statBases>
             <WorkToMake>45000</WorkToMake>
             <Mass>4</Mass>
-            <AccuracyTouch>0.50</AccuracyTouch>
-            <AccuracyShort>0.70</AccuracyShort>
+            <AccuracyTouch>0.70</AccuracyTouch>
+            <AccuracyShort>0.75</AccuracyShort>
             <AccuracyMedium>0.86</AccuracyMedium>
-            <AccuracyLong>0.88</AccuracyLong>
+            <AccuracyLong>0.90</AccuracyLong>
             <RangedWeapon_Cooldown>2.3</RangedWeapon_Cooldown>
         </statBases>
-        <equippedAngleOffset>45</equippedAngleOffset>
         <costList>
             <Steel>160</Steel>
             <ComponentIndustrial>9</ComponentIndustrial>
         </costList>
+        <equippedAngleOffset>45</equippedAngleOffset>
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>

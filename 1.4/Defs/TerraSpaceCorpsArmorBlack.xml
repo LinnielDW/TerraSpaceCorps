@@ -5,7 +5,7 @@
         <!--        TODO: change name-->
         <label>TSC Marine Armor</label>
         <!--        TODO: change desc-->
-        <description>changeme.</description>
+        <description>Regular marine Armor</description>
         
         <techLevel>Spacer</techLevel>
         <recipeMaker>
@@ -62,6 +62,8 @@
                 <li>Shoulders</li>
                 <li>Arms</li>
                 <li>Legs</li>
+                <li>Hands</li>
+                <li>Feet</li>
             </bodyPartGroups>
             <!--            TODO: change graphic-->
             <wornGraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmor/tscb</wornGraphicPath>
@@ -75,6 +77,7 @@
             <useDeflectMetalEffect>true</useDeflectMetalEffect>
             <tags>
                 <li>SpacerMilitary</li>
+                <li>EVA</li>
             </tags>
         </apparel>
         <comps>
@@ -90,7 +93,7 @@
 <!--        TODO: change me-->
         <label>TSC Marine Helmet</label>
 <!--        TODO: change me-->
-        <description>changeme.</description>
+        <description>A buffer trooper hlemet made for Marine's</description>
         <techLevel>Spacer</techLevel>
         <recipeMaker>
             <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -179,7 +182,7 @@
             <wornGraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmor/sealede</wornGraphicPath>
         </apparel>
         <equippedStatOffsets>
-            <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">1</ToxicEnvironmentResistance>
+            <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">3</ToxicEnvironmentResistance>
         </equippedStatOffsets>
     </ThingDef>
 
@@ -188,7 +191,7 @@
 <!--        TODO: change me-->
         <label>TSC Marine Helmet</label>
 <!--        TODO: change me-->
-        <description>changeme.</description>
+        <description>High Tech marine Combat helmet with built in Night vision and gas mask nothing can stop u but a bullet</description>
         <techLevel>Spacer</techLevel>
         <recipeMaker>
             <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -226,6 +229,7 @@
         </statBases>
         <equippedStatOffsets>
             <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.1</SlaveSuppressionOffset>
+            <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">5</ToxicEnvironmentResistance>
         </equippedStatOffsets>
         <costList>
             <ComponentSpacer>1</ComponentSpacer>
@@ -251,6 +255,7 @@
             </forceEyesVisibleForRotations>
             <tags>
                 <li>SpacerMilitary</li>
+                <li>EVA</li>
             </tags>
         </apparel>
         <comps>
