@@ -6,7 +6,7 @@
 		</mods>
 		<match Class="PatchOperationSequence">
 			<operations>
-				<!--Chemical guns-->
+				<!--guns-->
 				<li Class="SafePatcher.PatchOperationSetModExtension" MayRequire="issaczhuang.muzzleflash" >
 					<xpath>Defs/ThingDef[defName="FTF_SMG"]</xpath>
 					<value>
@@ -19,6 +19,20 @@
 						</li>
 					</value>
 				</li>
+
+                                <li Class="SafePatcher.PatchOperationSetModExtension" MayRequire="issaczhuang.muzzleflash" >
+					<xpath>Defs/ThingDef[defName="Arc_Pistol"]</xpath>
+					<value>
+						<li Class="MuzzleFlash.MuzzleFlashProps">
+							<def>MF_StandardMuzzleFalshTwo</def>
+							<drawSize>(0.6,0.6)</drawSize>
+							<offsets>
+								<li>(0.28,0.03)</li>
+							</offsets>
+						</li>
+					</value>
+				</li>
+                                 
 
 				<li Class="SafePatcher.PatchOperationSetModExtension" MayRequire="issaczhuang.muzzleflash" >
 					<xpath>Defs/ThingDef[defName="PPT_Shotgun"]</xpath>
@@ -41,6 +55,20 @@
 							<drawSize>(1,1)</drawSize>
 							<offsets>
 								<li>(0.73,0)</li>
+							</offsets>
+						</li>
+					</value>
+				</li>
+
+
+                                <li Class="SafePatcher.PatchOperationSetModExtension" MayRequire="issaczhuang.muzzleflash" >
+					<xpath>Defs/ThingDef[defName="Terra_Minigun"]</xpath>
+					<value>
+						<li Class="MuzzleFlash.MuzzleFlashProps">
+							<def>MF_StandardMuzzleFalsh</def>
+							<drawSize>(1,1)</drawSize>
+							<offsets>
+								<li>(0.37,0)</li>
 							</offsets>
 						</li>
 					</value>
@@ -131,14 +159,14 @@
 					</value>
 				</li>
 
-				<li Class="SafePatcher.PatchOperationSetModExtension" MayRequire="issaczhuang.muzzleflash" >
-					<xpath>Defs/ThingDef[defName="LMG_FSK"]</xpath>
+                                <li Class="SafePatcher.PatchOperationSetModExtension" MayRequire="issaczhuang.muzzleflash" >
+					<xpath>Defs/ThingDef[defName="Terra_Minigun"]</xpath>
 					<value>
 						<li Class="MuzzleFlash.MuzzleFlashProps">
 							<def>MF_StandardMuzzleFalsh</def>
 							<drawSize>(1,1)</drawSize>
 							<offsets>
-								<li>(0.4,0)</li>
+								<li>(0,37,0)</li>
 							</offsets>
 						</li>
 					</value>
