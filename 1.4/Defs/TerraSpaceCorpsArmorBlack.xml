@@ -40,7 +40,7 @@
         <equippedStatOffsets>
             <MoveSpeed>-0.10</MoveSpeed>
             <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.3</SlaveSuppressionOffset>
-            <IncomingDamageFactor>-0.20</IncomingDamageFactor>
+            <IncomingDamageFactor>-0.10</IncomingDamageFactor>
             <MedicalTendSpeed>0.5</MedicalTendSpeed>
         </equippedStatOffsets>
         <thingCategories>
@@ -62,8 +62,6 @@
                 <li>Shoulders</li>
                 <li>Arms</li>
                 <li>Legs</li>
-                <li>Hands</li>
-                <li>Feet</li>
             </bodyPartGroups>
             <!--            TODO: change graphic-->
             <wornGraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmor/tscb</wornGraphicPath>
@@ -77,7 +75,169 @@
             <useDeflectMetalEffect>true</useDeflectMetalEffect>
             <tags>
                 <li>SpacerMilitary</li>
-                <li>EVA</li>
+            </tags>
+        </apparel>
+        <comps>
+            <li Class="CompProperties_Biocodable"/>
+        </comps>
+        <thingSetMakerTags>
+            <li>RewardStandardHighFreq</li>
+        </thingSetMakerTags>
+    </ThingDef>
+
+    <ThingDef ParentName="ArmorMachineableBase">
+        <defName>Death</defName>
+        <!--        TODO: change name-->
+        <label>TSC Marine Armor</label>
+        <!--        TODO: change desc-->
+        <description>Regular marine Armor</description>
+        
+        <techLevel>Spacer</techLevel>
+        <recipeMaker>
+            <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+            <researchPrerequisite>PoweredArmor</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>7</Crafting>
+            </skillRequirements>
+            <recipeUsers Inherit="False">
+                <li>FabricationBench</li>
+            </recipeUsers>
+            <displayPriority>105</displayPriority>
+        </recipeMaker>
+        <graphicData>
+            <!--            TODO: change graphic-->
+            <texPath>Things/Pawn/Humanlike/Apparel/PowerArmor/Death</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <generateCommonality>2</generateCommonality>
+        <statBases>
+            <WorkToMake>60000</WorkToMake>
+            <MaxHitPoints>540</MaxHitPoints>
+            <Mass>12</Mass>
+            <Flammability>0.4</Flammability>
+            <ArmorRating_Sharp>1.90</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.75</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.54</ArmorRating_Heat>
+            <Insulation_Cold>34</Insulation_Cold>
+            <Insulation_Heat>10</Insulation_Heat>
+            <EquipDelay>14</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <MoveSpeed>-0.10</MoveSpeed>
+            <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.3</SlaveSuppressionOffset>
+            <IncomingDamageFactor>-0.10</IncomingDamageFactor>
+            <MedicalTendSpeed>0.5</MedicalTendSpeed>
+        </equippedStatOffsets>
+        <thingCategories>
+            <li>ApparelArmor</li>
+        </thingCategories>
+        <tradeTags>
+            <li>HiTechArmor</li>
+            <li>Armor</li>
+        </tradeTags>
+        <costList>
+            <ComponentSpacer>4</ComponentSpacer>
+            <Plasteel>100</Plasteel>
+            <Uranium>20</Uranium>
+        </costList>
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Neck</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Legs</li>
+            </bodyPartGroups>
+            <!--            TODO: change graphic-->
+            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmor/Death</wornGraphicPath>
+            <layers>
+                <li>Middle</li>
+                <li>Shell</li>
+            </layers>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+            <useDeflectMetalEffect>true</useDeflectMetalEffect>
+            <tags>
+                <li>SpacerMilitary</li>
+            </tags>
+        </apparel>
+        <comps>
+            <li Class="CompProperties_Biocodable"/>
+        </comps>
+        <thingSetMakerTags>
+            <li>RewardStandardHighFreq</li>
+        </thingSetMakerTags>
+    </ThingDef>
+
+    <ThingDef Name="Deathh" ParentName="ArmorHelmetMakeableBase">
+        <defName>Deathh</defName>
+<!--        TODO: change me-->
+        <label>Death Sqaud Helmet</label>
+<!--        TODO: change me-->
+        <description>Death Sqaud Helmet</description>
+        <techLevel>Spacer</techLevel>
+        <recipeMaker>
+            <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+            <researchPrerequisite>PoweredArmor</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>7</Crafting>
+            </skillRequirements>
+            <recipeUsers Inherit="False">
+                <li>FabricationBench</li>
+            </recipeUsers>
+            <displayPriority>100</displayPriority>
+        </recipeMaker>
+        <graphicData>
+<!--            TODO: change me-->
+            <texPath>Things/Pawn/Humanlike/Apparel/PowerArmor/Deathh</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconScale>1.25</uiIconScale>
+        <tradeTags>
+            <li>HiTechArmor</li>
+            <li>Armor</li>
+        </tradeTags>
+        <generateCommonality>2</generateCommonality>
+        <statBases>
+            <WorkToMake>21000</WorkToMake>
+            <MaxHitPoints>150</MaxHitPoints>
+            <Mass>1.5</Mass>
+            <Flammability>0.4</Flammability>
+            <ArmorRating_Sharp>1.60</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.54</ArmorRating_Heat>
+            <Insulation_Cold>4</Insulation_Cold>
+            <Insulation_Heat>2</Insulation_Heat>
+            <EquipDelay>4</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.1</SlaveSuppressionOffset>
+        </equippedStatOffsets>
+        <costList>
+            <ComponentSpacer>1</ComponentSpacer>
+            <Plasteel>40</Plasteel>
+        </costList>
+        <apparel>
+            <bodyPartGroups>
+                <li>FullHead</li>
+            </bodyPartGroups>
+            <!--            TODO: change me-->
+            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmor/Deathh</wornGraphicPath>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+            <useDeflectMetalEffect>true</useDeflectMetalEffect>
+            <forceEyesVisibleForRotations>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+            </forceEyesVisibleForRotations>
+            <tags>
+                <li>SpacerMilitary</li>
             </tags>
         </apparel>
         <comps>
@@ -255,7 +415,6 @@
             </forceEyesVisibleForRotations>
             <tags>
                 <li>SpacerMilitary</li>
-                <li>EVA</li>
             </tags>
         </apparel>
         <comps>
