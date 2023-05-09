@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-  <Operation Class="PatchOperationSequence">
-	<operations>
-	  <li Class="PatchOperationFindMod">
+	<Operation Class="PatchOperationFindMod">
 			
 		<mods><li>Combat Extended</li></mods>
-			
+
 		<match Class="PatchOperationSequence">
 		<operations>
 
@@ -108,28 +106,6 @@
 					<WornBulk>3</WornBulk>
 				</value>
 			</li>
-
-                        <li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="WoodhelmB"]/statBases/ArmorRating_Sharp</xpath>
-				<value>
-					<ArmorRating_Sharp>9</ArmorRating_Sharp>
-				</value>
-			</li>
-			
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="WoodhelmB"]/statBases/ArmorRating_Blunt</xpath>
-				<value>
-					<ArmorRating_Blunt>22.5</ArmorRating_Blunt>
-				</value>
-			</li>
-			
-			<li Class="PatchOperationAdd" MayRequire="CETeam.CombatExtended">
-				<xpath>Defs/ThingDef[defName="WoodhelmB"]/statBases</xpath>
-				<value>
-					<Bulk>5</Bulk>
-					<WornBulk>3</WornBulk>
-				</value>
-			</li>
 			
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Deathh"]/statBases/ArmorRating_Sharp</xpath>
@@ -146,7 +122,7 @@
 			</li>
 			
 			<li Class="PatchOperationAdd" MayRequire="CETeam.CombatExtended">
-				<xpath>Defs/ThingDef[defName=Deathh]/statBases</xpath>
+				<xpath>Defs/ThingDef[defName="Deathh"]/statBases</xpath>
 				<value>
 					<Bulk>5</Bulk>
 					<WornBulk>5</WornBulk>
@@ -158,12 +134,13 @@
 				<nomatch Class="PatchOperationAdd">
 					<xpath>Defs/ThingDef[defName="Deathh"]/apparel</xpath>
 					<value>
+						<immuneToToxGasExposure>true</immuneToToxGasExposure>
 					</value>
 				</nomatch>
 			</li>
 
 			<li Class="PatchOperationAdd" MayRequire="CETeam.CombatExtended">
-				<xpath>Defs/ThingDef[Deathh]/equippedStatOffsets</xpath>
+				<xpath>Defs/ThingDef[defName="Deathh"]/equippedStatOffsets</xpath>
 				<value>
 					<IncomingDamageFactor>-20</IncomingDamageFactor>
 					<SmokeSensitivity>-5</SmokeSensitivity>
@@ -173,7 +150,5 @@
 			
 		</operations>
 		</match>	
-	  </li>
-	</operations>	
   </Operation>
 </Patch>

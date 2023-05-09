@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-  <Operation Class="PatchOperationSequence">
-	<operations>
-	  <li Class="PatchOperationFindMod">
+	  <Operation Class="PatchOperationFindMod">
 			
 		<mods><li>Combat Extended</li></mods>
 			
 		<match Class="PatchOperationSequence">
-		<operations>
+		  <operations>
 
 			<!--Trooper armor-->
 			
@@ -148,7 +146,7 @@
 			</li>
 			
 			<li Class="PatchOperationAdd" MayRequire="CETeam.CombatExtended">
-				<xpath>Defs/ThingDef[defName=corpshelm]/statBases</xpath>
+				<xpath>Defs/ThingDef[defName="corpshelm"]/statBases</xpath>
 				<value>
 					<Bulk>5</Bulk>
 					<WornBulk>3</WornBulk>
@@ -160,12 +158,13 @@
 				<nomatch Class="PatchOperationAdd">
 					<xpath>Defs/ThingDef[defName="corpshelm"]/apparel</xpath>
 					<value>
+						<immuneToToxGasExposure>true</immuneToToxGasExposure>
 					</value>
 				</nomatch>
 			</li>
 
 			<li Class="PatchOperationAdd" MayRequire="CETeam.CombatExtended">
-				<xpath>Defs/ThingDef[corpshelm]/equippedStatOffsets</xpath>
+				<xpath>Defs/ThingDef[defName="corpshelm"]/equippedStatOffsets</xpath>
 				<value>
 					<IncomingDamageFactor>-0.8</IncomingDamageFactor>
 					<SmokeSensitivity>-1</SmokeSensitivity>
@@ -173,9 +172,7 @@
 				</value>
 			</li>
 			
-		</operations>
+		  </operations>
 		</match>	
-	  </li>
-	</operations>	
-  </Operation>
+	  </Operation>
 </Patch>
