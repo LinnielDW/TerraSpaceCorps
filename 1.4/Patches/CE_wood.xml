@@ -38,7 +38,7 @@
 				<xpath>Defs/ThingDef[defName="tscsw"]/equippedStatOffsets/MoveSpeed</xpath>
 			</li>
 			
-			<li Class="PatchOperationAdd" MayRequire="ceteam.combatextended">
+			<li Class="PatchOperationAdd" MayRequire="CETeam.CombatExtended">
 				<xpath>Defs/ThingDef[defName="tscsw"]/equippedStatOffsets</xpath>
 				<value>
 					<CarryBulk>80.9</CarryBulk>
@@ -66,8 +66,8 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Death"]/statBases/Mass</xpath>
 				<value>
-					<Mass>20</Mass>
-					<Bulk>80</Bulk>
+					<Mass>10</Mass>
+					<Bulk>90</Bulk>
 					<WornBulk>5</WornBulk>
 				</value>
 			</li>
@@ -76,12 +76,11 @@
 				<xpath>Defs/ThingDef[defName="Death"]/equippedStatOffsets/MoveSpeed</xpath>
 			</li>
 			
-			<li Class="PatchOperationAdd" MayRequire="ceteam.combatextended">
+			<li Class="PatchOperationAdd" MayRequire="CETeam.CombatExtended">
 				<xpath>Defs/ThingDef[defName="Death"]/equippedStatOffsets</xpath>
 				<value>
 					<CarryBulk>100</CarryBulk>
 					<ReloadSpeed>0.5</ReloadSpeed>
-					<ToxicEnvironmentResistance>1.50</ToxicEnvironmentResistance>
                                      	<ShootingAccuracyPawn>0.9</ShootingAccuracyPawn>
 				</value>
 			</li>
@@ -102,7 +101,7 @@
 				</value>
 			</li>
 			
-			<li Class="PatchOperationAdd" MayRequire="ceteam.combatextended">
+			<li Class="PatchOperationAdd" MayRequire="CETeam.CombatExtended">
 				<xpath>Defs/ThingDef[defName="WoodhelmA"]/statBases</xpath>
 				<value>
 					<Bulk>5</Bulk>
@@ -124,7 +123,7 @@
 				</value>
 			</li>
 			
-			<li Class="PatchOperationAdd" MayRequire="ceteam.combatextended">
+			<li Class="PatchOperationAdd" MayRequire="CETeam.CombatExtended">
 				<xpath>Defs/ThingDef[defName="WoodhelmB"]/statBases</xpath>
 				<value>
 					<Bulk>5</Bulk>
@@ -146,10 +145,10 @@
 				</value>
 			</li>
 			
-			<li Class="PatchOperationAdd" MayRequire="ceteam.combatextended">
+			<li Class="PatchOperationAdd" MayRequire="CETeam.CombatExtended">
 				<xpath>Defs/ThingDef[defName=Deathh]/statBases</xpath>
 				<value>
-					<Bulk>10</Bulk>
+					<Bulk>5</Bulk>
 					<WornBulk>5</WornBulk>
 				</value>
 			</li>
@@ -159,12 +158,11 @@
 				<nomatch Class="PatchOperationAdd">
 					<xpath>Defs/ThingDef[defName="Deathh"]/apparel</xpath>
 					<value>
-						<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">3</ToxicEnvironmentResistance>
 					</value>
 				</nomatch>
 			</li>
 
-			<li Class="PatchOperationAdd" MayRequire="ceteam.combatextended">
+			<li Class="PatchOperationAdd" MayRequire="CETeam.CombatExtended">
 				<xpath>Defs/ThingDef[Deathh]/equippedStatOffsets</xpath>
 				<value>
 					<IncomingDamageFactor>-20</IncomingDamageFactor>

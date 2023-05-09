@@ -2,7 +2,7 @@
 <Patch>
     <Operation Class="PatchOperationFindMod">
         <mods>
-            <li>Combat Extended</li>
+            <li>CombatExtended</li>
         </mods>
         <match Class="PatchOperationSequence">
             <operations>
@@ -88,7 +88,7 @@
                     </value>
                 </li>
     
-                <li Class="CombatExtended.PatchOperationMakeGunCECompatible" MayRequire="ceteam.combatextended">
+                <li Class="CombatExtended.PatchOperationMakeGunCECompatible" MayRequire="CETeam.CombatExtended">
                     <defName>FTF_SMG</defName>
                     <statBases>
                         <Mass>2.84</Mass>
@@ -134,7 +134,7 @@
                     <researchPrerequisite>BlowbackOperation</researchPrerequisite>
                 </li>
 
-                <li Class="CombatExtended.PatchOperationMakeGunCECompatible" MayRequire="ceteam.combatextended">
+                <li Class="CombatExtended.PatchOperationMakeGunCECompatible" MayRequire="CETeam.CombatExtended">
                     <defName>Arc_Pistol</defName>
                     <statBases>
                         <Mass>2.84</Mass>
@@ -180,7 +180,7 @@
                     <researchPrerequisite>BlowbackOperation</researchPrerequisite>
                 </li>
                 
-                <li Class="CombatExtended.PatchOperationMakeGunCECompatible" MayRequire="ceteam.combatextended">
+                <li Class="CombatExtended.PatchOperationMakeGunCECompatible" MayRequire="CETeam.CombatExtended">
                     <defName>LMG_FSK</defName>
                     <statBases>
                         <Mass>9.12</Mass>
@@ -231,7 +231,7 @@
                     <AllowWithRunAndGun>false</AllowWithRunAndGun>
                 </li>
 
-                <li Class="CombatExtended.PatchOperationMakeGunCECompatible" MayRequire="ceteam.combatextended">
+                <li Class="CombatExtended.PatchOperationMakeGunCECompatible" MayRequire="CETeam.CombatExtended">
                     <defName>Terra_Minigun</defName>
                     <statBases>
                         <Mass>9.12</Mass>
@@ -282,7 +282,7 @@
                 </li>
 
     
-                <li Class="CombatExtended.PatchOperationMakeGunCECompatible" MayRequire="ceteam.combatextended">
+                <li Class="CombatExtended.PatchOperationMakeGunCECompatible" MayRequire="CETeam.CombatExtended">
                     <defName>PPT_Shotgun</defName>
                     <statBases>
                         <Mass>3.50</Mass>
@@ -324,7 +324,7 @@
                     <researchPrerequisite>GasOperation</researchPrerequisite>
                 </li>
     
-                <li Class="CombatExtended.PatchOperationMakeGunCECompatible" MayRequire="ceteam.combatextended">
+                <li Class="CombatExtended.PatchOperationMakeGunCECompatible" MayRequire="CETeam.CombatExtended">
                     <defName>Lar_Rifle</defName>
                     <statBases>
                         <Mass>3.26</Mass>
@@ -369,7 +369,7 @@
                     <researchPrerequisite>PrecisionRifling</researchPrerequisite>
                 </li>
     
-                <li Class="CombatExtended.PatchOperationMakeGunCECompatible" MayRequire="ceteam.combatextended">
+                <li Class="CombatExtended.PatchOperationMakeGunCECompatible" MayRequire="CETeam.CombatExtended">
                     <defName>BattleRifle</defName>
                     <statBases>
                         <Mass>3.26</Mass>
@@ -413,7 +413,7 @@
                     <researchPrerequisite>PrecisionRifling</researchPrerequisite>
                 </li>
     
-                <li Class="CombatExtended.PatchOperationMakeGunCECompatible" MayRequire="ceteam.combatextended">
+                <li Class="CombatExtended.PatchOperationMakeGunCECompatible" MayRequire="CETeam.CombatExtended">
                     <defName>Mark_Charge</defName>
                     <statBases>
                         <Mass>3.0</Mass>
@@ -460,7 +460,7 @@
                     <researchPrerequisite>ChargedShot</researchPrerequisite>
                 </li>
     
-                <li Class="CombatExtended.PatchOperationMakeGunCECompatible" MayRequire="ceteam.combatextended">
+                <li Class="CombatExtended.PatchOperationMakeGunCECompatible" MayRequire="CETeam.CombatExtended">
                     <defName>ARS_SniperRifle</defName>
                     <statBases>
                         <Mass>7.30</Mass>
