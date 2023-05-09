@@ -2,7 +2,7 @@
 <Patch>
     <Operation Class="PatchOperationFindMod">
         <mods>
-            <li>CombatExtended</li>
+            <li>Combat Extended</li>
         </mods>
         <match Class="PatchOperationSequence">
             <operations>
@@ -47,7 +47,7 @@
                             defName ="BattleRifle" or
                             defName ="Mark_Charge" or
                             defName ="Arc_Pistol" or
-                            defName ="Terra_Minigun"
+                            defName ="Terra_Minigun" or
                             defName ="ARS_SniperRifle"
                         ]/tools
                     </xpath>
@@ -237,7 +237,7 @@
                         <Mass>9.12</Mass>
                         <RangedWeapon_Cooldown>1.55</RangedWeapon_Cooldown>
                         <SightsEfficiency>1</SightsEfficiency>
-                        <ShotSpread>0.06.5</ShotSpread>
+                        <ShotSpread>0.065</ShotSpread>
                         <SwayFactor>3.01</SwayFactor>
                         <Bulk>17</Bulk>
                         <WorkToMake>42000</WorkToMake>
